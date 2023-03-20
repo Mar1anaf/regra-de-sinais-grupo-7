@@ -155,3 +155,18 @@ footer{
     justify-content: center;
     text-align: center;
 }
+
+.parodia {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 215px;
+    margin-top: 290px;
+    align-items: right;
+}
+
+.videos {
+    position: relative;
+    top: 0px;
+}
+

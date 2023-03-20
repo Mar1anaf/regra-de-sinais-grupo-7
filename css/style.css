@@ -201,3 +201,8 @@ footer {
     justify-content: center;
     text-align: center;
 }
+
+.jogo {
+    align-items: center;
+    margin-left: 10px;
+}
