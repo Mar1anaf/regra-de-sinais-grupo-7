@@ -32,7 +32,7 @@ body {
 } 
 
 header {
-    background-color: var(--red);
+    background-color: var(--white);
     color: var(--black);
     /* min-height: 60px; */
     width: 100%;
@@ -197,4 +197,12 @@ h4 {
     position: relative;
     top: 20px;
     right: 0;
+}
+
+.conteto{
+    display: flex;
+    justify-content: flex-end;
+}
+.paragrafo{ 
+    text-align: justify !important;
 }
