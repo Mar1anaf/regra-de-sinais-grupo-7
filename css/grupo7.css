@@ -32,7 +32,7 @@ body {
 } 
 
 header {
-    background-color: #f0d3f9;
+    background-color: var(--white);
     color: var(--black);
     /* min-height: 60px; */
     width: 100%;
