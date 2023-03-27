@@ -207,3 +207,8 @@ h4 {
 .conteudo-inicial {
     color: var(--black);
 }
+
+.jogo {
+    align-items: center;
+    margin-left: 10px;
+}
