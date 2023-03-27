@@ -4,6 +4,7 @@
     --black: #000000;
     --white: #ffffff;
     --gray: #878787;
+    --purple: #e0a0fa;
     --redMedium: #9a1915;
     --redDark: #681413;
 }
@@ -25,7 +26,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     text-align: left;
-    background-color: var(--white) ;
+    background-color: var(--purple) ;
     height: 100%;
     width: 100%;
     position: relative;
@@ -171,10 +172,10 @@ footer{
 }
 
 h4 {
-    color: rgb(205, 55, 205);
+    color: #543b68;
 }
 .caixa {
-    background-color: #f0d3f9;
+    background-color: #F0d3f9;
     opacity: 40%; 
     position: relative;
     padding: 0px;
@@ -199,11 +200,10 @@ h4 {
     right: 0;
 }
 
-.conteto{
-    display: flex;
-    justify-content: flex-end;
+.paragrafo{
+    text-align: right;
 }
-.paragrafo{ 
-    text-align: justify !important;
 
+.conteudo-inicial {
+    color: var(--black);
 }
