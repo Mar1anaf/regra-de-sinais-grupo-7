@@ -4,7 +4,8 @@
     --black: #000000;
     --white: #ffffff;
     --gray: #878787;
-    --purple: #e0a0fa;
+    --lavanda: #e0a0fa;
+    --purple: #543b68;
     --redMedium: #9a1915;
     --redDark: #681413;
 }
@@ -26,7 +27,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     text-align: left;
-    background-color: var(--purple) ;
+    background-color: var(--lavanda) ;
     height: 100%;
     width: 100%;
     position: relative;
