@@ -10,24 +10,6 @@
     --redDark: #681413;
 }
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-@media only screen and (max-width: 768px) {
-  [class*="col-"] {
-    width: 100%;
-  }
-}
 /* AQUI ESTÃO SOMENTE AS TAGS COM SUAS PROPRIEDADES */
 *{
     font-family: 'Montserrat', sans-serif;
@@ -40,22 +22,17 @@ html {
     height: 100%;
 }
 
-.texto {
-    position: relative;
-    right: 6px;
-    top: 20px;
-}
 body {
     margin: 0;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     text-align: left;
-    background-color: var(--lavanda) ;
-    height: 100%;
+    background-color: #e0a0fa;
     width: 100%;
-    position: relative;
-} 
+    height: 100%;
+    
+}
 
 header {
     background-color: var(--white);
@@ -99,29 +76,27 @@ h2 {
     padding-top: 16px;
     padding-bottom: 4px;
     margin: 0;
-    color: var(--white);
-}
-
-p {
-    text-align: left;
-    font-size: 16px;
-    padding-top: 16px;
-    padding-bottom: 2,5px;
-    margin: 0;
-    color: var(--black); 
+    color: var(--black);
 }
 
 footer{
     background-color: var(--red);
-    padding: 1em;
+    padding: 6em;
     width: 100%;
-    top: 350%;
+    top: 400%;
     position: absolute;
+    bottom: 0;
 }
 /* AQUI COMEÇA OS STYLES DAS CLASSES E IDS */
 .container {
     max-width: 1140px;
 }
+
+.conteudo-inicial {
+    width: 420px;
+    color: var(--black);
+    text-align: justify;
+    }
 
 .navbar {
     display: flex;
@@ -131,6 +106,11 @@ footer{
     padding: 50px 0 20px 0;
 }
 
+.content {
+    position: relative;
+    top: 20%;
+    font-weight: 500;
+}
 .navbar-menu {
     display: flex;
 }
@@ -145,7 +125,7 @@ footer{
     list-style: none;
     margin-left: auto;
     margin-right: auto;
-} 
+}
 
 .navbar-items-menu {
     padding: 0;
@@ -161,10 +141,13 @@ footer{
 
 .footer-icons {
     display: flex;
-    padding: 10px;
+    padding: 0px;
     align-items: center;
     justify-content: center;
     text-align: center;
+    top: 1%;
+    position: absolute;
+    right: 43%;
 }
 
 .items-social-media {
@@ -178,31 +161,27 @@ footer{
 .footer-link {
     color: var(--white);
     align-items: center;
-    justify-content: center;
+    justify-content:center;
     text-align: center;
 }
 
-.parodia {
-    position: relative;
-    right: -500px;
-    top: -900px;
-    margin: 215px;
-    margin-top: 290px;
-    align-items: right;
+.foco {
+    width: 100%;
+    height: 574px;
+    background: url("../img/regra\ de\ sinais\ banner.png") no-repeat center;
+    background-size: cover;
 }
 
-.videos {
+.logomultiple {
     position: relative;
-    top: 0px;
+    top: 430px;
+    left: 24%;
 }
 
-h4 {
-    color: #543b68;
-}
 .caixa {
     background-color: #F0d3f9;
     opacity: 40%; 
-    position: relative;
+    position:relative;
     padding: 0px;
     border-radius: 46px;
     width: 500px;
@@ -213,36 +192,32 @@ h4 {
 
 }
 
-.Conteudo {
+.videos {
     position: relative;
-    top: -260px;
-    right: 0;
+    top: 5px;
+    left: -5%;
 }
 
-.content {
+.paragrafo {
+    position: absolute;
+    left: 1000px;
+    width: 220px;
+    top: 20%;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.podcasts {
     position: relative;
-
-    top: 0%;
-    right: 0;
-    font-weight: 500;
+    top: 20%;
 }
 
-.conteudo-inicial {
-    color: var(--black);
+.interatividade {
+    position: relative;
+    top: 20%;
 }
 
-.jogo {
-    align-items: center;
-    margin-left: 10px;
-}
-
-.foco {
-    width: 100%;
-    height: 574px;
-    background: url("../img/regra\ de\ sinais\ banner.png") no-repeat center;
-    background-size: cover;
-}
-
-.botao {
-    padding: 255px;
+.compartilhar {
+    position: relative;
+    top: 100%;
 }
