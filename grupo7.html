@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initia5l-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Turmas dos Cursos Técnicos de 2023">
     <meta name="keywords"
         content="SESI,SENAI,Caçapava-SP,Escola,DEV,Multimídia,Desenvolvimento de Sistemas,Novo Ensino Médio,Multiple Learning">
@@ -16,143 +17,138 @@
     <link rel="stylesheet" href="css/grupo7.css">
     <title>Regra de sinais Multiple Learning SESI-SENAI</title>
 </head>
+
 <body>
     <header>
-        <nav class="navbar">
-            <a class="navbar-logo" href="index.html">
-                <img src="img/LogoSesiSenai.png" alt="Logo Sesi Senai" description="Logo do Sesi e do Senai">
-            </a>
-            <div class="navbar-menu">
-                <ul class="navbar-items">
-                    <li class="navbar-items-menu">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="navbar-items-menu">
-                        <a class="nav-link" href="#parodia">Paródia</a>
-                    </li>
-                    <li class="navbar-items-menu">
-                        <a class="nav-link" href="#videos">Vídeos</a>
-                    </li>
-                    <li class="navbar-items-menu">
-                        <a class="nav-link" href="#jogo">Jogo</a>
-                    </li>
-                    <li class="navbar-items-menu">
-                        <a class="nav-link" href="#conteudo">Conteúdo</a>
-                    </li>
-
-                </ul>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+                <!-- Navbar brand -->
+                <a class="navbar-logo" href="index.html">
+                    <img src="img/LogoSesiSenai.png" alt="Logo Sesi Senai" description="Logo do Sesi e do Senai">
+                </a>
+                <!-- Toggle button -->
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" href="#video">Vídeos</a>
+                        <a class="nav-link" href="#podcasts">Podcasts</a>
+                        <a class="nav-link" href="#interatividade">Interatividade</a>
+                    </div>
+                </div>
+                <!-- Collapsible wrapper -->
             </div>
+            <!-- Container wrapper -->
         </nav>
+        <!-- Navbar -->
     </header>
 
     <main>
-        <section class="foco">
-            <div class="container">
-                <a href="index.html" class="botao"><img src="img/Logo_Multiple-Learning.png" alt="" class="logomultiple" width="200px"></a>
+        <div class="topo-g7">
+            <div class="foco">
+
             </div>
-        </section>
-        
-        <div class="content">
-                <div class="texto">
-                    <p class="conteudo-inicial">O jogo de sinais é o modo como ficaram conhecidas
-                        as regras usadas para decidir o sinal do resultado das
-                        operações matemáticas básicas. É o conjunto de regras
-                        matemáticas utilizadas para decidir qual será o sinal
-                        do resultado de diversas operações matemáticas, desde
-                        as mais simples como a adição até as mais complexas.</p>
-
-                    <div class="caixa">
-                    </div>
-
-                </div>
+            <div class="container">
+                <a href="index.html">
+                    <img src="img/Logo_Multiple-Learning.png" alt="" class="logomultiple" width="300px">
+                </a>
+            </div>
         </div>
 
-        <div class="videos">
-            <div>
-                <iframe id="videos" width="800" height="500" src="https://www.youtube.com/embed/9jsek8ZjB1Q"
+        <div class="content">
+            <div class="texto">
+                <p class="conteudo-inicial">
+                    O jogo de sinais é o modo como ficaram conhecidas
+                    as regras usadas para decidir o sinal do resultado das
+                    operações matemáticas básicas. É o conjunto de regras
+                    matemáticas utilizadas para decidir qual será o sinal
+                    do resultado de diversas operações matemáticas, desde
+                    as mais simples como a adição até as mais complexas.
+                </p>
+            </div>
+        </div>
+
+        <div id="video">
+            <div class="grid">
+                <div class="g-col-6">
+                    <iframe class="videos" src="https://www.youtube.com/embed/9jsek8ZjB1Q"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen>
-                </iframe>
+                    </iframe>
+                </div>                
+                <div class="g-col-4">
+                    <p class="paragrafo">
+                        Esse vídeo apresentará o conteúdo
+                        abordado com ainda mais detalhes e
+                        aprofundamento, tendo total
+                        instrutoria e conferimento dos
+                        professores de matemática do SESI
+                        Caçapava.
+                    </p>
+                </div>
                 
-                <p class="paragrafo">Esse vídeo apresentará o conteúdo
-                abordado com ainda mais detalhes e
-                aprofundamento, tendo total
-                instrutoria e conferimento dos
-                professores de matemática do SESI
-                Caçapava.</p>
             </div>
         </div>
 
-        <div class="podcasts">
-            <div>
+        <div id="interatividade">
+            <div class="quiz">
                 <iframe id="jogo" style="max-width:100%"
-                src="https://wordwall.net/pt/embed/c74ee33efdbd4b5680e8802d7cf0372e?themeId=21&templateId=30&fontStackId=2%22"
-                width="100%" height="240px" frameborder="0" allowfullscreen>
-            </iframe>  
+                    src="https://wordwall.net/pt/embed/c74ee33efdbd4b5680e8802d7cf0372e?themeId=21&templateId=30&fontStackId=2%22"
+                    width="100%" height="240px" frameborder="0" allowfullscreen>
+                </iframe>
             </div>
         </div>
 
         <div class="interatividade">
-                <div id="conteudo">
-
-                    <br><br><br><br><br><br>
-                    <h4>Regra do sinal na adição e na subtração</h4>
-                    <p>1. A soma de dois números positivos (+ / +) será um resultado positivo.
-                        23 + 30 = + 53
-                        2. A soma de dois números negativos resultará em um número também negativo.
-                        (-55) + (-10) = -65
-                        3. A soma de dois números com sinais diferentes deve ser resolvida através da subtração
-                        entre eles.
-                        +12 + (-7) = +5</p>
-                    <br><br><br>
-
-                    <h4>Regra do sinal na multiplicação</h4>
-                    <p>2. A multiplicação de dois números positivos sempre terá resultados positivos.
-
-                        (+11) * (+11) = +121
-
-                        Por outro lado, a multiplicação de dois números negativos resultará em um número positivo.
-
-                        (-12) * (-12) = +144
-
-                        (-7) * (-2) = +14
-
-                        Já a multiplicação de um número positivo por um número negativo terá um resultado negativo.
-
-                        ( -14) * (+10) = -140
-
-                        (-1) * (5) = -5</p>
-                    <br><br><br>
-
-                    <h4>Regra do sinal na divisão</h4>
-                    <p>3. A divisão de dois números positivos sempre resultará em um número também positivo.
-
-                        +12 / +2 = 6
-
-                        +10 / +5 = 2
-
-                        A divisão de um número negativo por outro número negativo terá um resultado positivo.
-
-                        -12 / -2 = + 6
-
-                        -10 / -5 = +2
-
-                        Agora, uma divisão entre um número positivo e outro de sinal negativo resultará em um número
-                        de sinal negativo.
-
-                        +12 / -2 = -6
-
-                        -10 / +5 = -2</p>
-                        <Br><br>
-
-                        
+            <div class="conteudo">
+                <h4>Regra do sinal na adição e na subtração</h4>
+                <p class="dist">1. A soma de dois números positivos (+ / +) será um resultado positivo.</br>
+                    <strong>23 + 30 = + 53</strong></p>
+                <p class="dist">2. A soma de dois números negativos resultará em um número também negativo.</br>
+                    <strong>(-55) + (-10) = -65</strong>
+                </p>
+                <p class="dist">A soma de dois números com sinais diferentes deve ser resolvida através da subtração
+                    entre eles.</br>
+                    <strong>+12 + (-7) = +5</strong>
+                </p>
             </div>
-        </div>
-
-        <div class="compartilhar">
-            <div>
-
+            <div class="conteudo">
+                <h4>Regra do sinal na multiplicação</h4>
+                <p class="dist">2. A multiplicação de dois números positivos sempre terá resultados positivos.</br>
+                    <strong>(+11) * (+11) = +121</strong>
+                </p>
+                <p class="dist">Por outro lado, a multiplicação de dois números negativos resultará em um número positivo.</br>
+                    <strong>(-12) * (-12) = +144</br>
+                    (-7) * (-2) = +14</strong>
+                </p>
+                <p class="dist">Já a multiplicação de um número positivo por um número negativo terá um resultado negativo.</br>
+                    <strong>( -14) * (+10) = -140</br>
+                    (-1) * (5) = -5</strong>
+                </p>
+            </div>
+            <div class="conteudo">
+                <h4>Regra do sinal na divisão</h4>
+                <p class="dist">3. A divisão de dois números positivos sempre resultará em um número também positivo.
+                    +12 / +2 = 6
+                    +10 / +5 = 2
+                </p>
+                <p class="dist">A divisão de um número negativo por outro número negativo terá um resultado positivo.
+                    -12 / -2 = + 6
+                    -10 / -5 = +2
+                </p>
+                <p class="dist">Agora, uma divisão entre um número positivo e outro de sinal negativo resultará em um número
+                    de sinal negativo.
+                    +12 / -2 = -6
+                    -10 / +5 = -2
+                </p>
             </div>
         </div>
     </main>
@@ -182,4 +178,5 @@
         </div>
     </footer>
 </body>
+
 </html>
