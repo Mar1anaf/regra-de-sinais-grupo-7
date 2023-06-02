@@ -146,8 +146,13 @@ footer{
 
 #img-background{
     width: 100%;
+<<<<<<< HEAD
+=======
+    height: 700px;
+    background: url("../img/regra_de_sinais_banner.png") no-repeat center;
+    background-size: cover;
+>>>>>>> 70620ee1acffe94c86455fd06b055b857d77d88b
 }
-
 .container{
     display: flex;
     justify-content: center;
@@ -215,6 +220,7 @@ footer{
     color: var(--black);
 }
 
+<<<<<<< HEAD
 #video {
     margin-bottom: 10%;
 }
@@ -253,3 +259,9 @@ footer{
         margin-bottom: 20px;
     }
 }
+=======
+/* .logomultiple{
+    margin-top: 300px;
+    margin-left: 20%;
+} */
+>>>>>>> 70620ee1acffe94c86455fd06b055b857d77d88b
