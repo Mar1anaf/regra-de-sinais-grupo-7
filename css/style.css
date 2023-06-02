@@ -100,6 +100,7 @@ footer {
 
 .navbar-logo {
     align-items: center;
+ 
 }
 
 .navbar-items {
@@ -200,4 +201,10 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.logomultiple {
+    position: relative;
+    top: 430px;
+    left: 24%;
 }
