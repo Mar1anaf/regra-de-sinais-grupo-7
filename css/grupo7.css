@@ -7,6 +7,7 @@
     --redMedium: #9a1915;
     --redDark: #681413;
     --purple: #F0d3f9;
+    --roxo: #e0a0fa;
 }
 /* AQUI ESTÃO SOMENTE AS TAGS COM SUAS PROPRIEDADES */
 *{
@@ -26,7 +27,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     text-align: left;
-    background-color: var(--gray);
+    background-color: var(--roxo);
     width: 100%;
     min-height: 100%;
 }
@@ -157,7 +158,8 @@ footer{
 
 .content{
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    margin-left: 6%;
 }
 
 .texto{
