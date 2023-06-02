@@ -144,11 +144,8 @@ footer{
     text-align: center;
 }
 
-.foco {
+#img-background{
     width: 100%;
-    height: 574px;
-    background: url("../img/regra_de_sinais_banner.png") no-repeat center;
-    background-size: cover;
 }
 
 .container{
@@ -157,9 +154,7 @@ footer{
 }
 
 .content{
-    display: flex;
-    justify-content: left;
-    margin-left: 6%;
+    margin-bottom: 10%;
 }
 
 .texto{
@@ -175,6 +170,14 @@ footer{
 }
 
 .grid{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5%;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.grid2{
     display: flex;
     flex-wrap: wrap;
     column-gap: 5%;
@@ -210,4 +213,43 @@ footer{
 .dist{
     padding-left: 15px;
     color: var(--black);
+}
+
+#video {
+    margin-bottom: 10%;
+}
+
+#interatividade {
+    margin: 20px;
+}
+
+.conteudo{
+    margin: 20px;
+}
+
+@media screen and (max-width: 780px) {
+    .videos{
+        margin-top: 20px;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+
+    .texto{
+        margin-top: 30px;
+        width: 100%;
+        height: 80%;
+        margin-bottom: 30px;
+    }
+
+    .paragrafo{
+        margin-top: 30px;
+        width: 100%;
+        height: 80%;
+        margin-bottom: 30px;
+    }
+
+    .div-col-g6{
+        margin-bottom: 20px;
+    }
 }

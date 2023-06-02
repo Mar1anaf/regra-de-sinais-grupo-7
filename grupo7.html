@@ -39,7 +39,7 @@
                     <div class="navbar-nav ms-auto">
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         <a class="nav-link" href="#video">Vídeo</a>
-                        <a class="nav-link" href="#podcasts">Paródia</a>
+                        <a class="nav-link" href="#parodia">Paródia</a>
                         <a class="nav-link" href="#interatividade">Jogo</a>
                     </div>
                 </div>
@@ -52,38 +52,40 @@
 
     <main>
         <div class="topo-g7">
-            <div class="foco">
+            <img id="img-background" src="./img/regra_de_sinais_banner.png" alt="Foto banner regras de sinais">
+        </div>
 
-            </div>
-            <div class="container">
-                <a href="index.html">
-                    <img src="img/Logo_Multiple-Learning.png" alt="" class="logomultiple" width="200px">
-                </a>
+        <div class="content">
+            <div class="grid2">
+                <div class="g-col-4">
+                    <p class="texto">
+                        O jogo de sinais é o modo como ficaram conhecidas
+                        as regras usadas para decidir o sinal do resultado das
+                        operações matemáticas básicas. É o conjunto de regras
+                        matemáticas utilizadas para decidir qual será o sinal
+                        do resultado de diversas operações matemáticas, desde
+                        as mais simples como a adição até as mais complexas.
+                    </p>
+                </div>
+                <div class="g-col-6">
+                    <iframe class="videos" id="parodia" src="https://www.youtube.com/embed/CsyOLsSuiQk"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+                </div>
             </div>
         </div>
 
         <div class="content">
-            <div class="texto">
-                <p class="conteudo-inicial">
-                    O jogo de sinais é o modo como ficaram conhecidas
-                    as regras usadas para decidir o sinal do resultado das
-                    operações matemáticas básicas. É o conjunto de regras
-                    matemáticas utilizadas para decidir qual será o sinal
-                    do resultado de diversas operações matemáticas, desde
-                    as mais simples como a adição até as mais complexas.
-                </p>
-            </div>
-        </div>
-
-        <div id="video">
             <div class="grid">
                 <div class="g-col-6">
-                    <iframe class="videos" src="https://www.youtube.com/embed/9jsek8ZjB1Q"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen>
+                    <iframe id="video" class="videos" src="https://www.youtube.com/embed/9jsek8ZjB1Q" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
                     </iframe>
-                </div>                
+                </div>
                 <div class="g-col-4">
                     <p class="paragrafo">
                         Esse vídeo apresentará o conteúdo
@@ -94,7 +96,7 @@
                         Caçapava.
                     </p>
                 </div>
-                
+
             </div>
         </div>
 
@@ -111,7 +113,8 @@
             <div class="conteudo">
                 <h4>Regra do sinal na adição e na subtração</h4>
                 <p class="dist">1. A soma de dois números positivos (+ / +) será um resultado positivo.</br>
-                    <strong>23 + 30 = + 53</strong></p>
+                    <strong>23 + 30 = + 53</strong>
+                </p>
                 <p class="dist">2. A soma de dois números negativos resultará em um número também negativo.</br>
                     <strong>(-55) + (-10) = -65</strong>
                 </p>
@@ -125,29 +128,34 @@
                 <p class="dist">2. A multiplicação de dois números positivos sempre terá resultados positivos.</br>
                     <strong>(+11) * (+11) = +121</strong>
                 </p>
-                <p class="dist">Por outro lado, a multiplicação de dois números negativos resultará em um número positivo.</br>
+                <p class="dist">Por outro lado, a multiplicação de dois números negativos resultará em um número
+                    positivo.</br>
                     <strong>(-12) * (-12) = +144</br>
-                    (-7) * (-2) = +14</strong>
+                        (-7) * (-2) = +14</strong>
                 </p>
-                <p class="dist">Já a multiplicação de um número positivo por um número negativo terá um resultado negativo.</br>
+                <p class="dist">Já a multiplicação de um número positivo por um número negativo terá um resultado
+                    negativo.</br>
                     <strong>( -14) * (+10) = -140</br>
-                    (-1) * (5) = -5</strong>
+                        (-1) * (5) = -5</strong>
                 </p>
             </div>
             <div class="conteudo">
                 <h4>Regra do sinal na divisão</h4>
-                <p class="dist">3. A divisão de dois números positivos sempre resultará em um número também positivo.</br>
+                <p class="dist">3. A divisão de dois números positivos sempre resultará em um número também
+                    positivo.</br>
                     <strong> +12 / +2 = 6
-                    +10 / +5 = 2</strong>
+                        +10 / +5 = 2</strong>
                 </p>
-                <p class="dist">A divisão de um número negativo por outro número negativo terá um resultado positivo.</br>
+                <p class="dist">A divisão de um número negativo por outro número negativo terá um resultado
+                    positivo.</br>
                     <strong>-12 / -2 = + 6
-                    -10 / -5 = +2</strong>
+                        -10 / -5 = +2</strong>
                 </p>
-                <p class="dist">Agora, uma divisão entre um número positivo e outro de sinal negativo resultará em um número
+                <p class="dist">Agora, uma divisão entre um número positivo e outro de sinal negativo resultará em
+                    um número
                     de sinal negativo.</br>
                     <strong>+12 / -2 = -6
-                    -10 / +5 = -2</strong>
+                        -10 / +5 = -2</strong>
                 </p>
             </div>
         </div>
@@ -178,4 +186,5 @@
         </div>
     </footer>
 </body>
+
 </html>
