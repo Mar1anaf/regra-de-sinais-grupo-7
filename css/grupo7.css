@@ -187,6 +187,7 @@ footer{
 .videos{
     width: 700px;
     height: 400px;
+    margin-top: 5%;
 }
 
 .g-col-4{
@@ -215,11 +216,12 @@ footer{
 }
 
 #video {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 #interatividade {
     margin: 20px;
+    margin-bottom: 7%;
 }
 
 .conteudo{
